@@ -1,6 +1,5 @@
 import "babel-polyfill";
 import {routePrefix,route, koaRouter} from './router';
-require('babel-core/register');
 const Koa = require('Koa');
 const app = new Koa();
 
