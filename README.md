@@ -42,15 +42,15 @@ export class TemplateConteroller{
     }
 }
 ```
-
-* app 的代码
-
 * @routePrefix 给class标注的路由前缀  @routePrefix（route）
     * route 路由使用的根路径，内部方法的路由都会把这个路径加在前面，这个参数可以为空，效果等同于没有声明@routePrefix。
 * @route 给方法票注的路由 @route(route, method, isAsync)
     * route 路由使用的路径
     * method http method 如 get , post ,put ,delete，如果我们不设置这个参数，程序会自动根据方法名来获取（参考：route:route.js代码说明)
     * isAsync 默认为true,当前是否为asnyc方法， 如果不是把这个参数设置成false.
+
+
+* app 的代码
 
 ```javascript
 import "babel-polyfill";
